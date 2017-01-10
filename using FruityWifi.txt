@@ -1,0 +1,8 @@
+to start
+	service apache2 start && service php5-fpm start && service fruitywifi start
+	open a browser and go to http://localhost:8000
+	login with user: admin password: admin
+
+Assumes that wireless interface is wlan0...need to change to the appropriate interface; not sure where to do that
+
+
