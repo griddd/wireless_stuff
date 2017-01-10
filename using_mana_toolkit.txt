@@ -1,0 +1,14 @@
+Articles describing use and functionality are below
+
+https://github.com/sensepost/mana
+https://cyberarms.wordpress.com/2014/10/16/mana-tutorial-the-intelligent-rogue-wi-fi-router/
+https://www.pwnieexpress.com/bypassing-hsts-ssl-with-the-mana-toolkit/
+http://decidedlygray.com/2015/11/19/evil-access-point-with-auto-backdooring-ftw/
+http://decidedlygray.com/2015/11/29/evil-access-point-with-auto-backdooring-part-2/
+https://blog.secureideas.com/2015/05/patching-binaries-with-backdoor-factory.html (describes use of backdoor factory...combine it with mana)
+
+Doesn't come installed on kali by default, need to apt-get install mana-toolkit
+
+Mana doesn't seem to play well with BeEF.  I had to apt-get remove mana-toolkit to get the Apache2 webserver back to normal
+
+
